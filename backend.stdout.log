@@ -1,0 +1,23 @@
+[2026-10-15 16:32:16,207] [INFO] [social_ai_platform:31]: Starting Social AI Platform backend application...
+[2026-10-15 16:32:16,358] [INFO] [social_ai_platform:34]: Database tables initialized successfully.
+[2026-10-15 16:32:16,655] [INFO] [social_ai_platform:32]: Database seed check complete.
+[2026-10-15 16:32:16,655] [INFO] [social_ai_platform:43]: Database seeder ran successfully.
+[2026-10-15 16:32:16,865] [INFO] [social_ai_platform:63]: [Scheduler] Initializing Autonomous Scheduler...
+[2026-10-15 16:32:16,867] [INFO] [apscheduler.scheduler:507]: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[2026-10-15 16:32:16,868] [INFO] [apscheduler.scheduler:507]: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[2026-10-15 16:32:16,873] [INFO] [social_ai_platform:124]: [Scheduler] Syncing 2 business schedules...
+[2026-10-15 16:32:16,874] [INFO] [apscheduler.scheduler:507]: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[2026-10-15 16:32:16,875] [INFO] [social_ai_platform:166]: [Scheduler] Registered daily generation cron for business 1 at 09:00 (Asia/Kolkata) [Job ID: generate_1]
+[2026-10-15 16:32:16,876] [INFO] [apscheduler.scheduler:507]: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[2026-10-15 16:32:16,877] [INFO] [social_ai_platform:166]: [Scheduler] Registered daily generation cron for business 2 at 09:00 (Asia/Kolkata) [Job ID: generate_2]
+[2026-10-15 16:32:16,894] [INFO] [apscheduler.scheduler:1092]: Added job "Global Publish Due Posts Worker" to job store "default"
+[2026-10-15 16:32:16,903] [INFO] [apscheduler.scheduler:1092]: Added job "Scheduler Engine Recurring & Due Posts Worker" to job store "default"
+[2026-10-15 16:32:16,910] [INFO] [apscheduler.scheduler:1092]: Added job "Daily Content Generation for Business 1" to job store "default"
+[2026-10-15 16:32:16,916] [INFO] [apscheduler.scheduler:1092]: Added job "Daily Content Generation for Business 2" to job store "default"
+[2026-10-15 16:32:16,917] [INFO] [apscheduler.scheduler:214]: Scheduler started
+[2026-10-15 16:32:16,917] [INFO] [social_ai_platform:101]: [Scheduler] Autonomous APScheduler successfully started.
+[2026-10-15 16:32:16,926] [INFO] [social_ai_platform:287]: Starting Social AI Platform background scheduler worker loop...
+[2026-10-15 16:32:16,945] [INFO] [social_ai_platform:114]: [Scheduler] Autonomous APScheduler successfully shut down.
+[2026-10-15 16:32:16,946] [INFO] [social_ai_platform:298]: Stopped Social AI Platform background scheduler worker.
+[2026-10-15 16:32:16,946] [INFO] [social_ai_platform:56]: Shutting down Social AI Platform backend...
+[2026-10-15 16:32:16,948] [INFO] [apscheduler.scheduler:245]: Scheduler has been shut down

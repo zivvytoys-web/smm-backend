@@ -1,0 +1,4 @@
+INFO:     Started server process [16348]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://192.168.1.22:8001 (Press CTRL+C to quit)
